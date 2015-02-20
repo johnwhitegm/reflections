@@ -1,0 +1,23 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: Always good to have a remote repository - even if it is not with Github. A remote backup will allow you to not lose your data in case of: virus, hardware failure, theft, and natural disaster, etc.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Having Git automatically stay up-to-date with remote repository is something most people may want - but what if you don't? To be flexible, you may not want to work on the most updated remote repository - nor you may not want it to be uploaded remotely.
+
+Q: Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+A: Forks are nice because it allows you to create a project from someone else's work (similar to a branch, but now you have control over it). Cloning is a copy of the project in its current state. Branches are logical extensions of the master.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: Easy access without internet - but most places have internet even with cell phones (so no excuses!)
+
+Q: How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+A: It depends on the project. GotoMeeting by Citrix or even TeamViewer has a free option allows collaboration. It depends on the needs of the team and what is being done. Enterprise software development should probably be using a system similar to GitHub (probably something created in-house). Easier/harder is all relative - for me, it would probably be easier to just use GitHub.
+
+Q: When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+A: An example may be in which the branch will become the new master. Or if you had many people working on the project and the branches were different features of the project that each person can commit to individually then combine (merge) at the end. Having different branches is nice and can always be merged at end - however, they may be cases where there are "too many" branches and maybe modifications should have been kept to the master.
